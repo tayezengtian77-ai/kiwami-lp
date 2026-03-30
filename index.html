@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>エアコン完全分解洗浄きわみ｜香川県</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* ===== STICKY CTA ===== */
+    .sticky-cta {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: #0077cc;
+      color: #fff;
+      text-align: center;
+      padding: 12px 16px;
+      z-index: 999;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .sticky-cta a {
+      color: #fff;
+      text-decoration: none;
+      background: rgba(255,255,255,0.2);
+      padding: 8px 18px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    .sticky-cta a.line { background: #06c755; }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      background: #cce8f9;
+    }
+    .hero-img {
+      width: 100%;
+      display: block;
+      max-height: 600px;
+      min-height: 260px;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .hero-overlay {
+      padding: 36px 24px 44px;
+      background: linear-gradient(to bottom, rgba(200,230,255,0.6), rgba(230,244,255,0.95));
+    }
+    .area-badge {
+      display: inline-block;
+      background: #0077cc;
+      color: #fff;
+      font-size: 13px;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+    .hero h1 {
+      font-size: clamp(22px, 6vw, 36px);
+      font-weight: 900;
+      line-height: 1.35;
+      color: #0055aa;
+      margin-bottom: 10px;
+    }
+    .hero h1 span { color: #e63c00; }
+    .hero .sub {
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 24px;
+    }
+    .hero-badges {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .hero-badge {
+      background: #fff;
+      border: 2px solid #0077cc;
+      color: #0077cc;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 8px;
+    }
+    .hero-btns { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .btn-primary {
+      display: inline-block;
+      background: #e63c00;
+      color: #fff;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 15px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(230,60,0,0.35);
+    }
+    .btn-line {
+      display: inline-block;
+      background: #06c755;
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 12px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+
+    /* ===== SECTION BASE ===== */
+    section { padding: 52px 24px; }
+    section.bg-light { background: #f5faff; }
+    .section-label {
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #0077cc;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    h2 {
+      text-align: center;
+      font-size: clamp(20px, 5vw, 26px);
+      font-weight: 900;
+      margin-bottom: 32px;
+      line-height: 1.4;
+    }
+    h2 span { color: #e63c00; }
+
+    /* ===== PROBLEM ===== */
+    .problem-list {
+      max-width: 480px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .problem-item {
+      background: #fff;
+      border-left: 4px solid #f0a500;
+      padding: 13px 16px;
+      border-radius: 0 8px 8px 0;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .problem-item::before { content: '😣 '; }
+    .problem-note {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #e63c00;
+      font-weight: bold;
+    }
+
+    /* ===== BEFORE/AFTER ===== */
+    .ba-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      max-width: 640px;
+      margin: 0 auto 28px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .ba-item { position: relative; }
+    .ba-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .ba-label {
+      position: absolute;
+      top: 10px; left: 10px;
+      background: rgba(0,0,0,0.65);
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .ba-label.after { background: #0077cc; }
+    .ba-note {
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    /* ===== FEATURES ===== */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 24px 18px;
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .feature-icon { font-size: 36px; margin-bottom: 10px; }
+    .feature-card h3 { font-size: 15px; font-weight: bold; margin-bottom: 6px; color: #0055aa; }
+    .feature-card p { font-size: 13px; color: #555; }
+
+    /* ===== STEPS ===== */
+    .steps {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 14px;
+      align-items: start;
+      padding: 20px 0;
+      border-bottom: 1px dashed #cce0f5;
+    }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      width: 52px; height: 52px;
+      background: #0077cc;
+      color: #fff;
+      font-size: 11px;
+      font-weight: bold;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.1;
+      flex-shrink: 0;
+    }
+    .step-num span { font-size: 18px; }
+    .step-body h3 { font-size: 16px; font-weight: bold; margin-bottom: 4px; }
+    .step-body p { font-size: 13px; color: #555; margin-bottom: 10px; }
+    .step-body img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      display: block;
+      object-fit: cover;
+      height: 160px;
+    }
+
+    /* ===== PRICING ===== */
+    .campaign-box {
+      max-width: 580px;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+      border: 2px solid #f0a500;
+      border-radius: 12px;
+      padding: 18px 20px;
+      text-align: center;
+    }
+    .campaign-box .tag {
+      display: inline-block;
+      background: #e63c00;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+    .campaign-box .amount { font-size: 26px; color: #e63c00; font-weight: 900; }
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      max-width: 580px;
+      margin: 0 auto 16px;
+    }
+    .price-card {
+      background: #fff;
+      border: 2px solid #cce0f5;
+      border-radius: 14px;
+      padding: 24px 18px;
+      text-align: center;
+    }
+    .price-card.featured { border-color: #0077cc; }
+    .price-card h3 { font-size: 14px; font-weight: bold; color: #0055aa; margin-bottom: 12px; }
+    .price-amount { font-size: 36px; font-weight: 900; }
+    .price-amount small { font-size: 15px; font-weight: normal; color: #555; }
+    .price-note { font-size: 12px; color: #777; margin-top: 6px; }
+    .price-includes {
+      max-width: 580px;
+      margin: 0 auto;
+      font-size: 13px;
+      color: #555;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    /* ===== GUARANTEE ===== */
+    .guarantee-box {
+      max-width: 540px;
+      margin: 0 auto;
+      background: #fffbe6;
+      border: 2px solid #f0c000;
+      border-radius: 14px;
+      padding: 28px 22px;
+      text-align: center;
+    }
+    .guarantee-icon { font-size: 44px; margin-bottom: 10px; }
+    .guarantee-box h3 { font-size: 20px; font-weight: 900; color: #7a5000; margin-bottom: 8px; }
+    .guarantee-box p { font-size: 14px; color: #555; }
+
+    /* ===== REVIEWS ===== */
+    .reviews-wrap {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .review-stars-img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .review-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .review-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    }
+    .review-stars { color: #f0a500; font-size: 17px; margin-bottom: 6px; }
+    .review-text { font-size: 14px; color: #333; margin-bottom: 8px; }
+    .review-author { font-size: 12px; color: #888; }
+    .google-badge {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list {
+      max-width: 580px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .faq-item { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+    .faq-q {
+      padding: 14px 18px;
+      font-weight: bold;
+      font-size: 14px;
+      background: #e8f4fd;
+      color: #0055aa;
+    }
+    .faq-q::before { content: 'Q. '; }
+    .faq-a { padding: 13px 18px; font-size: 13px; color: #333; }
+    .faq-a::before { content: 'A. '; font-weight: bold; color: #0077cc; }
+
+    /* ===== CONTACT ===== */
+    .contact-section {
+      background: linear-gradient(135deg, #0055aa 0%, #0077cc 100%);
+      color: #fff;
+      text-align: center;
+      padding: 52px 24px;
+    }
+    .contact-section h2 { color: #fff; margin-bottom: 10px; }
+    .contact-section > p { font-size: 14px; opacity: 0.9; margin-bottom: 28px; }
+    .contact-btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-white {
+      display: inline-block;
+      background: #fff;
+      color: #0055aa;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+    }
+    .btn-line-lg {
+      display: inline-block;
+      background: #06c755;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+    .contact-note { font-size: 12px; opacity: 0.7; margin-top: 16px; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px 24px 80px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta">
+  <a href="https://airconcleaning-kiwami.jp/#contact-area" target="_blank">📋 無料見積もり</a>
+  <a href="https://line.me/R/ti/p/%40722esidu" class="line" target="_blank">💬 LINEで相談</a>
+</div>
+
+<!-- ① HERO -->
+<section class="hero">
+  <img class="hero-img"
+    src="https://airconcleaning-kiwami.jp/wp-content/uploads/2025/12/kiwamiheader2_PC.png"
+    alt="エアコン完全分解洗浄きわみ"
+    loading="eager"
+  />
+  <div class="hero-overlay">
+    <div class="area-badge">📍 香川県（高松市など）対応</div>
+    <h1>エアコンを<span>完全分解</span>して<br>カビを根こそぎ除去します</h1>
+    <p class="sub">通常クリーニングでは届かない内部の汚れを<br>専用工場で徹底洗浄します</p>
+    <div class="hero-badges">
+      <div class="hero-badge">✅ 1年保証付き</div>
+      <div class="hero-badge">🌿 天然洗剤使用</div>
+      <div class="hero-badge">🔇 騒音・汚水なし</div>
+    </div>
+    <div class="hero-btns">
+      <a href="https://airconcleaning-kiwami.jp/#contact-area" class="btn-primary" target="_blank">無料見積もりを申し込む</a>
+      <a href="https://line.me/R/ti/p/%40722esidu" class="btn-line" target="_blank">💬 LINEで気軽に相談する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ② PROBLEM -->
+<section>
+  <p class="section-label">こんなお悩みありませんか</p>
+  <h2>そのエアコン、<span>カビだらけ</span>かもしれません</h2>
+  <div class="problem-list">
+    <div class="problem-item">エアコンをつけると咳が出る・目が痒い</div>
+    <div class="problem-item">エアコン内部に黒いポツポツが見える</div>
+    <div class="problem-item">なんとなくニオイが気になる</div>
+    <div class="problem-item">エアコンクリーニングを一度もしたことがない</div>
+  </div>
+  <p class="problem-note">→ 放っておくと感染症・アレルギーの原因になることも</p>
+</section>
+
+<!-- ③ BEFORE/AFTER -->
+<section class="bg-light">
+  <p class="section-label">ビフォーアフター</p>
+  <h2>洗浄前後の<span>驚きの差</span>をご覧ください</h2>
+
+  <div class="ba-grid" style="margin-bottom: 8px;">
+    <div class="ba-item">
+      <img src="https://airconcleaning-kiwami.jp/wp-content/uploads/2026/01/IMG_2074.jpg" alt="洗浄前" loading="lazy" />
+      <span class="ba-label">Before</span>
+    </div>
+    <div class="ba-item">
+      <img src="https://airconcleaning-kiwami.jp/wp-content/uploads/2026/01/アフクー斜め诒め.jpg" alt="洗浄後" loading="lazy" />
+      <span class="ba-label after">After</span>
+    </div>
+  </div>
+
+  <div class="ba-grid">
+    <div class="ba-item">
+      <img src="https://airconcleaning-kiwami.jp/wp-content/uploads/2026/03/34E3C525-19FF-4186-83EF-E99BDECE63E3.jpg" alt="洗浄前2" loading="lazy" />
+      <span class="ba-label">Before</span>
+    </div>
+    <div class="ba-item">
+      <img src="https://airconcleaning-kiwami.jp/wp-content/uploads/2026/03/07E48E26-759E-4732-B4T5-66B3382A5D6B.jpg" alt="洗浄後2" loading="lazy" />
+      <span class="ba-label after">After</span>
+    </div>
+  </div>
+  <p class="ba-note">※ どちらも完全分解洗浄でしか落とせない汚れです</p>
+</section>
+<section>
+  <p class="section-label">なぜ「きくみ」が選ばれるのか</p>
+  <h2>通常クリーニングとは<span>まったく違う</span></h2>
+  <div class="features-grid">
+    <div class="feature-card"><div class="feature-icon">🔧</div><h3>完全分解して洗浄</h3><p>全部品を取り外し、扢が届かない内部まで徹底洗浄。通常では残�
+/�
+��O�
+���O�w�;�f��:����𽑥��(�����؁�����􉙕���ɔ���ɐ���؁�����􉙕���ɔ��������~2�𽑥���������ۚ�_�&��3�>���
+���4��������Î?�3�����k��#���
+��'���
++����ۚZǖ&�����7�
+O�/����R������k�V�k�^��B����Zǎ��_���O����g����𽑥��(�����؁�����􉙕���ɔ���ɐ���؁�����􉙕���ɔ��������f��<𽑥�������c��>o�6K�������f��>0�������Öꛒ�>���c�⧎������������n����h��#����
+��O�.3�
+�f��>3���_����3�֟��ӎ3�
+æf�7�_���g����𽑥��(�����؁�����􉙕���ɔ���ɐ���؁�����􉙕���ɔ��������~R𽑥�������K�~ώ��k��ӎ��\�������
+��
+��
+ώώ
+K�ޗ��ӎ��2;����������_����������������K�z˚.o�3�ޛ�����水でお風呂場も汘せん。</p></div>
+  </div>
+</section>
+<section class="bg-light">
+  <p class="section-label">作業の流��</p>
+  <h2>たった<span>4ステップ</span>でピカピカに</h2>
+  <div class="steps">
+    <div class="step"><div class="step-num">STEP�<span>1</span></div><div class="step-body"><h3>エアコンを壁かお取り外す</h3><p/作業に持ち帰りほ取り外します。���񥵜��Ɍ�����輽��ɍ�������������݅������������ѕ�н������̼���Լ�Ƚ%5|���Ե͍������������������๩���������
+��
+��
+ώϖ>[�
++��[�\���������􉱅�䈀��𽑥��𽑥��(�����؁�������ѕ����؁�������ѕ���մ��MQ@�������������𽑥���؁�������ѕ�����������"������ז�ӎ��f����Î
++���3���"�����_�����������R��ޗ��ӎ����G���
+K�"������c�r���_������/����ۚ�_�&����
+��O����k�
+3�
+K����W�f��:����񥵜��Ɍ�����輽��ɍ�������������݅������������ѕ�н������̼���м�位��}݅ͣ��H����������
+��
+��
+ώϖ�3���"�����_�����������􉱅�䈀��𽑥��𽑥��(�����؁�������ѕ����؁�������ѕ���մ��MQ@��������������𽑥���؁�������ѕ������������c�⧎
+��������W��+�K��Ӣ>0��������_����3����c��>o�����
+K�/�G����n����h��#����B;�����f��>3�_���W��+�K���g����񥵜��Ɍ�����輽��ɍ�������������݅������������ѕ�н������̼���Լ����������}��Ĺ��������􋦮c�⧎�����f��>0���������􉱅�䈀��𽑥��𽑥��(�����؁�������ѕ����؁�������ѕ���մ��MQ@��������������𽑥���؁�������ѕ�����������>[�
++��[�G����3����������k�
++���_���/�
++�>[�
++��[�G��
+ӎ
+��r���f��r����#�ߖ"8�8~7����8~8n8�o#x�cy�(x�e��e��o��fx� ���[Y�ܘ�H�΋��Z\��ۘ�X[�[��Z�]�[ZK����X�۝[��\�Y�̌�K�L��k�9i%��g�⭹��W���Ȉ[H��8ਸ�����c�ࢹ.�8�dyk�9.����Y[��H�^�H�Ϗ�]���]����]����[OH�^X[Yێ��[�\��X\��[�]�����۝\�^�N�L����܎�����ȏ��.�9c�ࢹi%��e��b��yc�ࢹi%��dx�o��i��b�y�g9."�ec�����a8�g��b8�a8�o��fO�����X�[ۏ���X�[ۏ���\��H��X�[ۋ[X�[���e9��za�O�����������������j��[��k��hcy��za�O��[������]��\��H��[\ZYۋX����]��\��H�Yȏ�'�H��"8�x����������8������ab9�`L9c�:fd9k���]���[OH��۝\�^�N�M\��۝]�ZY����ȏ�g�yf��e9/�zh8�k���x�i��dx�����\��H�[[�[���K9a��ba�/%O���[OH��۝\�^�N�L����܎�͍���X\��[�]��ȏ��.���"9.+x�k��b��,��e�/�8�o��j�fd8ࢸ�o��fO���]���]��\��H��X�[��X�\�Ȉ�[OH�X\��[�]���ȏ��]��\��H��X�KX�\��X]\�Y��ϸ�b����fi9�g� �x�j��e��"9aj8��x��8����9k�o�;�"O�Ϗ]��\��H��X�KX[[�[����L��X[��'��X[��]��]��\��H��X�K[��H��yc�8����a�b)O�]���]���]��\��H��X�KX�\���ϸ�b����fiv����y.�8�cO>�#�^����8*�K�ΉvX�^�ʞ8:�8*N8*�8;>8;�Z��Z:��	��ȓ���3��F�b6�73�'&�6R���V�B"7G��S�&f��B�6��S�#G��#�8����8(.8(�\�F�c��F�b6�73�'&�6R���FR#�g��+��j��8ࢹ�l8�j�ࢸ�o��fO�]���]����]���]��\��H��X�KZ[��Y\Ȉ�[OH�X\��[�]��M�ȏ���ۙϹ��za�x�j�d*��o��8��࠸�kﾏ���ۙϹc�ࢹi%��e����`b��+8���b!�)���%��a8���c�ࢹi%��dx���ynm:e��/�z*/����.�/�yb�9���a�x�k�.��bcx�j��`�ࢸ�f��e��j8�e��o��fx� �����.��b�k�)�x�b��j/�yb�9��za�x�k�. yb!��`�ࢸ�o��f���� ��]�����X�[ۏ���X�[ۈ�\��H���[Y�����\��H��X�[ۋ[X�[��k�yo���e��i��e9/�zi/��c��h8�ex�`O�����ik�[z^[���7��[�N�i?�#��7��8�K�ފ��K��8����#��F�b6�73�&wV&�FVR�&��#��F�b6�73�&wV&�FVR֖6��#�	��c��F�c�ƃ3�[�N�i>K��ynK�ފ�����3���kI~kXN[��8�8*�8*.8+>8;>8�X�^8�8�8N8;�kNk��8(�8;�y[��>8�8~8�8.8(�888N�hZ�8�8�8�yK>8~Xxn8�8n8^8K�.8*�8*.8+>8;>8�K��ynjZ�8(.��8>8n8N8(�8�8(8K�~8�K�8�iX^���8�8(.Z��[��X���;�8~8�8#�����F�c���6V7F�����6V7F�����6�73�'6V7F�����&V�#�8�[8NjY�8�XK3���ƃ#�v��v�^��Y^K��7��)�SR���7�����#��F�b6�73�'&Wf�Ww2�w&#�Ɩ�r6�73�'&Wf�Wr�7F'2֖�r"7&3�&�GG3����&6��6�V��rֶ�v֒��w�6��FV�B�W��G2�##b�"�6���7F'2�r"�C�$v��v�^X�>8+>89�i��^��^K�"��F��s�&���"���F�b6�73�'&Wf�Wr�6&G2#��F�b6�73�'&Wf�Wr�6&B#��F�b6�73�'&Wf�Wr�7F'2#�)�^)�^)�^)�^)�S��F�c��6�73�'&Wf�Wr�FW�B#�K�^X�^K�nzK�8~8*�8*�8*.8*�8*�8*�8*�8~8n8�8(.8)>8~8~88�8�8N8�X�n8(�8����8�8(~8�8^8)>8�Z��[��8~8�8(��c�ࢹi%��e��g��jc,�9d�x�c9�'��i��a8�i��l��h��c�ࢸ�e��o��e��g�� ��%��a9o�8�k�aj:`�9d�x�c8��8����8���j��j�ࢸ� x�j��b��a8࠹k�9aj8�j�c��8�o��e��g�� �e�9�k��k����⭸�o��i�$/x�hy�`8�a8�i��cx�o��e��g�� O���\��H��]�Y]�X]]܈��i&��,9/l�kd9��;�#�x����"9bcO���]���]��\��H��]�Y]�X�\���]��\��H��]�Y]�\�\�ȏ��!x�!x�!x�!x�!O�]���\��H��]�Y]�]^��ec��a9d"8���f��k�k��o�8�j��j��でで、洗浄前の珪態を写真で㢚/�o�������7��'�����7���g�����
+�7�
+?���W�
+O���+��c��_�
+#����w����g��������������ɕ٥�ܵ��ѡ�Ȉ��+�����`���<�˚^��&4���𽑥��(����𽑥��(������������􉝽�������������~N4�������{��_�3�
+��
+��
+ώϖ�3���"�����_���7�
+?���7����s�҈���(��𽑥��(�͕�ѥ���(�͕�ѥ��������􉉜�����Ј�(�����������͕�ѥ�����������
+#�?��
+/�S�*?�R?��|���(����������s�����
+/�
+��
+K� \�����������
+���_�|���������(���؁�����􉙅ĵ���Ј�(�����؁�����􉙅ĵ�ѕ����؁�����􉙅ĵĈ���k�
+7�3�[����R��;�7�Z{�G���K�����Z{�G����'�
+?�
++���g�/��|𽑥���؁�����􉙅ĵ�����k�
+3���ꛖB#����
+#�
+/����*��Zg�G�/���S�[����o�
+O�����_��'���ώo��
+W���*��2[�������N�ꓚ>o�3��������ӖB#�����/�&7���S����b;����+���S�"��Z������7���g�𽑥��𽑥��(�����؁�����􉙅ĵ�ѕ����؁�����􉙅ĵĈ��>����������
+�����s���7���g�/��|𽑥���؁�����􉙅ĵ����~�r��j����_��s���?���g�3�������_��s���?����������
+���
++���g������V?�f����뢪7�W�o�������7���g�𽑥��𽑥��(�����؁�����􉙅ĵ�ѕ����؁�����􉙅ĵĈ����3���
+��
+��
+ώώ3�V�js�_��
+'������
++���g�/��|𽑥���؁�����􉙅ĵ�����ˎ����
+��
+��
+ώώ�����B�Z��
+��3������
+/���˧"G��������ߎ������w�;����Z{�G���&5�����B���7����i뢦s����ӖB#���B7��ϒ�w�f���*����_����
+/��
+��+�����c���S�ʃ�.�*�/���S�X����o�
+O�𽑥��𽑥��(�����؁�����􉙅ĵ�ѕ����؁�����􉙅ĵĈ��+�R��&W��Z��W����|𽑥���؁�����􉙅ĵ�����#�����G����������������g���+��3�
+����
+��#�
+���'���
+�����s��(定です。駐車料金は弊社負担です。</div></div>
+    <div class="faq-item"><div class="faq-q">どのくらいの頻度で依頼するのがおすすめですか？</div><div class="faq-a">虽杧かにの2年ク�廧��をつけてりすが、佂用状备�に"#��て啰なります。</div></div>
+  </div>
+</section>
+<section class="contact-section" id="contact">
+  <h2>まずはお気軽にどうぞ</h2>
+  <p>見積もりは無料です。LINEでもお気軽にご相談ください。<br>受注数に限りがありますのでお早めに。</p>
+  <div class="contact-btns">
+    <a href="https://airconcleaning-kiwami.jp/#contact-area" class="btn-white" target="_blank">📋 無料見積もり・お申し込みフォーム</a>
+    <a href="https://line.me/R/ti/p/%40722esidu" class="btn-line-lg" target="_blank">💬 LINEで相談すよ（1,000冢則伕）</a>
+  </div>
+  <p class="contact-note">対応エリア：香川県全域（高松市など）</p>
+</section>
+<footer>
+  <p>エアコン完全分解洗浄きわみ ｜ 榙川県高靾市</p>
+  <p style="margin-top:6px;">© 2025 エアコン完全分解洗浄きわみ</p>
+</footer>
+</body>
+</html>
